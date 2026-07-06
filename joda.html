@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JODA CAMPANY</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#111;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+}
+
+header h2{
+    color:red;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:red;
+}
+
+.hero{
+    height:90vh;
+    background:url("https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1600") center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero-content{
+    background:rgba(0,0,0,.6);
+    padding:40px;
+    border-radius:10px;
+    color:white;
+}
+
+.hero-content h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.btn{
+    background:red;
+    color:white;
+    padding:15px 30px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#111;
+}
+
+.cars{
+    padding:60px;
+    text-align:center;
+}
+
+.cars h2{
+    margin-bottom:30px;
+}
+
+.car-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:300px;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:15px;
+}
+
+.card p{
+    margin-bottom:15px;
+}
+
+.price{
+    color:red;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.buy{
+    display:inline-block;
+    margin-bottom:20px;
+    padding:10px 20px;
+    background:#111;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.buy:hover{
+    background:red;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.logo h2{
+    color:#ff3b3b;
+    font-size:28px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="joda.png" alt="JODA Logo">
+        <h2>JODA CAMPANY</h2>
+    </div>
+
+    <nav>
+        <a href="joda.html">Home</a>
+        <a href="joda car.html">Cars</a>
+        <a href="About Campany.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+<h1>Find Your Dream Car Today</h1>
+<p>Quality Cars | Affordable Prices | Trusted Dealer</p>
+<a href="joda car.html" class="btn">View Cars</a>
+</div>
+</section>
+
+<section class="cars">
+<h2>Featured Cars</h2>
+
+<div class="car-container">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600" alt="BMW">
+<h3>BMW X5</h3>
+<p class="price">$32,000</p>
+<a href="joda car.html" class="buy">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600" alt="Toyota">
+<h3>Toyota Land Cruiser</h3>
+<p class="price">$45,000</p>
+<a href="joda car.html" class="buy">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?w=600" alt="Mercedes">
+<h3>Mercedes-Benz C-Class</h3>
+<p class="price">$38,500</p>
+<a href="joda car.html" class="buy">Buy Now</a>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<p>&copy; 2026 JODA CAMPANY. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

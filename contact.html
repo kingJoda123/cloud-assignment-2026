@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - JODA CAMPANY</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#111;
+            color:white;
+            padding:15px 50px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        header h2{
+            color:#ff3b3b;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:20px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:#ff3b3b;
+        }
+
+        .contact{
+            max-width:900px;
+            margin:50px auto;
+            background:#fff;
+            padding:40px;
+            border-radius:10px;
+            box-shadow:0 5px 15px rgba(0,0,0,.2);
+        }
+
+        .contact h1{
+            text-align:center;
+            color:red;
+            margin-bottom:20px;
+        }
+
+        .contact p{
+            text-align:center;
+            margin-bottom:30px;
+        }
+
+        form input,
+        form textarea{
+            width:100%;
+            padding:12px;
+            margin-bottom:15px;
+            border:1px solid #ccc;
+            border-radius:5px;
+            font-size:16px;
+        }
+
+        form textarea{
+            resize:none;
+            height:150px;
+        }
+
+        button{
+            width:100%;
+            padding:15px;
+            background:red;
+            color:white;
+            border:none;
+            border-radius:5px;
+            font-size:18px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#111;
+        }
+
+        .info{
+            margin-top:30px;
+            text-align:center;
+            line-height:2;
+        }
+
+        footer{
+            background:#111;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
+        }
+
+        .logo{
+            display:flex;
+            align-items:center;
+            gap:10px;
+        }
+
+        .logo img{
+            width:60px;
+            height:60px;
+            border-radius:50%;
+            object-fit:cover;
+        }
+
+        .logo h2{
+            color:#ff3b3b;
+            font-size:28px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <img src="joda.png" alt="JODA Logo">
+        <h2>JODA CAMPANY</h2>
+    </div>
+
+    <nav>
+        <a href="joda.html">Home</a>
+        <a href="joda car.html">Cars</a>
+        <a href="About Campany.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="contact">
+    <h1>Contact Us</h1>
+
+    <p>Have a question or want to buy a car? Contact us today.</p>
+
+    <form>
+        <input type="text" placeholder="Your Full Name" required>
+
+        <input type="email" placeholder="Your Email Address" required>
+
+        <input type="tel" placeholder="Phone Number" required>
+
+        <textarea placeholder="Write your message here..." required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <div class="info">
+        <h3>Our Contact Information</h3>
+        <p>📍 Arusha, Tanzania</p>
+        <p>📞 +255 756 014 075</p>
+        <p>📧 info@jodacampany.com</p>
+        <p>🕒 Monday - Saturday: 8:00 AM - 6:00 PM</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 JODA CAMPANY. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
